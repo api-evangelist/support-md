@@ -1,0 +1,68 @@
+{
+  "name": "SUPPORT.md Structure",
+  "description": "The structural layout of a SUPPORT.md community health file.",
+  "created": "2026-05-02",
+  "modified": "2026-05-02",
+  "structure": {
+    "root": {
+      "type": "object",
+      "fields": [
+        {
+          "name": "project",
+          "type": "string",
+          "required": true,
+          "description": "Project name"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": false,
+          "description": "Brief project description"
+        },
+        {
+          "name": "documentation",
+          "type": "object",
+          "required": false,
+          "fields": [
+            { "name": "url", "type": "string (uri)", "required": false },
+            { "name": "gettingStarted", "type": "string (uri)", "required": false },
+            { "name": "faq", "type": "string (uri)", "required": false }
+          ]
+        },
+        {
+          "name": "channels",
+          "type": "array",
+          "required": true,
+          "items": {
+            "type": "SupportChannel",
+            "fields": [
+              { "name": "type", "type": "string (enum)", "required": true },
+              { "name": "url", "type": "string (uri)", "required": true },
+              { "name": "description", "type": "string", "required": false },
+              { "name": "tags", "type": "array of string", "required": false }
+            ]
+          }
+        },
+        {
+          "name": "security",
+          "type": "object",
+          "required": false,
+          "fields": [
+            { "name": "email", "type": "string (email)", "required": false },
+            { "name": "policy", "type": "string (uri)", "required": false }
+          ]
+        },
+        {
+          "name": "governance",
+          "type": "object",
+          "required": false,
+          "fields": [
+            { "name": "codeOfConduct", "type": "string (uri)", "required": false },
+            { "name": "contributing", "type": "string (uri)", "required": false },
+            { "name": "license", "type": "string (uri)", "required": false }
+          ]
+        }
+      ]
+    }
+  }
+}

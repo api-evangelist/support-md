@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "github": "https://docs.github.com/en/communities/",
+    "support": "https://api-evangelist.github.io/support-md/vocab#",
+
+    "SupportFile": {
+      "@id": "support:SupportFile",
+      "@type": "@id"
+    },
+    "CommunityHealthFile": {
+      "@id": "support:CommunityHealthFile",
+      "@type": "@id"
+    },
+    "SupportChannel": {
+      "@id": "support:SupportChannel",
+      "@type": "@id"
+    },
+    "IssueTracker": {
+      "@id": "support:IssueTracker",
+      "@type": "@id"
+    },
+    "DiscussionForum": {
+      "@id": "support:DiscussionForum",
+      "@type": "@id"
+    },
+    "MailingList": {
+      "@id": "support:MailingList",
+      "@type": "@id"
+    },
+
+    "name": {
+      "@id": "schema:name"
+    },
+    "description": {
+      "@id": "schema:description"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "email": {
+      "@id": "schema:email"
+    },
+    "contactPoint": {
+      "@id": "schema:contactPoint",
+      "@type": "@id"
+    },
+    "maintainer": {
+      "@id": "schema:maintainer",
+      "@type": "@id"
+    },
+    "contributor": {
+      "@id": "schema:contributor",
+      "@type": "@id"
+    },
+    "softwareHelp": {
+      "@id": "schema:softwareHelp",
+      "@type": "@id"
+    },
+    "discussionUrl": {
+      "@id": "schema:discussionUrl",
+      "@type": "@id"
+    },
+    "issueTracker": {
+      "@id": "schema:issueTracker",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id"
+    },
+    "codeRepository": {
+      "@id": "schema:codeRepository",
+      "@type": "@id"
+    },
+    "programmingLanguage": {
+      "@id": "schema:programmingLanguage"
+    },
+
+    "channelType": {
+      "@id": "support:channelType"
+    },
+    "priority": {
+      "@id": "support:priority"
+    },
+    "responseTime": {
+      "@id": "support:responseTime"
+    },
+    "securityContact": {
+      "@id": "support:securityContact"
+    },
+    "codeOfConduct": {
+      "@id": "support:codeOfConduct",
+      "@type": "@id"
+    },
+    "contributingGuide": {
+      "@id": "support:contributingGuide",
+      "@type": "@id"
+    },
+    "healthFile": {
+      "@id": "support:healthFile",
+      "@type": "@id"
+    }
+  }
+}

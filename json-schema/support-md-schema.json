@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/support-md/json-schema/support-md-schema.json",
+  "title": "SUPPORT.md",
+  "description": "Schema representing the structure and content of a SUPPORT.md community health file for a GitHub repository.",
+  "type": "object",
+  "required": ["project", "channels"],
+  "properties": {
+    "project": {
+      "type": "string",
+      "description": "The name of the open source project this SUPPORT.md applies to."
+    },
+    "description": {
+      "type": "string",
+      "description": "A brief description of the project and what kind of support is available."
+    },
+    "documentation": {
+      "type": "object",
+      "description": "Links to official project documentation.",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the primary documentation site."
+        },
+        "gettingStarted": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the getting started guide."
+        },
+        "faq": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the Frequently Asked Questions page."
+        }
+      }
+    },
+    "channels": {
+      "type": "array",
+      "description": "List of support channels available for the project.",
+      "items": {
+        "$ref": "#/$defs/SupportChannel"
+      },
+      "minItems": 1
+    },
+    "security": {
+      "type": "object",
+      "description": "Information about how to report security vulnerabilities.",
+      "properties": {
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Email address for responsible security disclosure."
+        },
+        "policy": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to the security policy (SECURITY.md or similar)."
+        }
+      }
+    },
+    "governance": {
+      "type": "object",
+      "description": "Links to governance and community documents.",
+      "properties": {
+        "codeOfConduct": {
+          "type": "string",
+          "format": "uri"
+        },
+        "contributing": {
+          "type": "string",
+          "format": "uri"
+        },
+        "license": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "SupportChannel": {
+      "type": "object",
+      "required": ["type", "url"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "GitHub Issues",
+            "GitHub Discussions",
+            "Stack Overflow",
+            "Slack",
+            "Discord",
+            "Mailing List",
+            "Forum",
+            "Chat",
+            "Email",
+            "Documentation"
+          ],
+          "description": "The type of support channel."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to access this support channel."
+        },
+        "description": {
+          "type": "string",
+          "description": "What kinds of questions or issues belong in this channel."
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Optional tags for categorizing this support channel."
+        }
+      }
+    }
+  }
+}

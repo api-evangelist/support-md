@@ -1,0 +1,44 @@
+{
+  "project": "My Open Source Project",
+  "description": "A library for processing data. Please use the appropriate channel below to get help.",
+  "documentation": {
+    "url": "https://my-project.readthedocs.io/",
+    "gettingStarted": "https://my-project.readthedocs.io/getting-started/",
+    "faq": "https://my-project.readthedocs.io/faq/"
+  },
+  "channels": [
+    {
+      "type": "Documentation",
+      "url": "https://my-project.readthedocs.io/",
+      "description": "Check the docs first — most questions are answered there.",
+      "tags": ["Documentation", "Reference"]
+    },
+    {
+      "type": "GitHub Discussions",
+      "url": "https://github.com/example/my-project/discussions",
+      "description": "Ask 'How do I…?' questions and discuss ideas with the community.",
+      "tags": ["Community", "Questions"]
+    },
+    {
+      "type": "GitHub Issues",
+      "url": "https://github.com/example/my-project/issues",
+      "description": "File bug reports and feature requests. Please use the templates provided.",
+      "tags": ["Bug Tracking", "Feature Requests"]
+    },
+    {
+      "type": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/tagged/my-project",
+      "description": "Tag your question with 'my-project' for community answers.",
+      "tags": ["Community", "Q&A"]
+    }
+  ],
+  "security": {
+    "email": "security@my-project.org",
+    "policy": "https://github.com/example/my-project/blob/main/SECURITY.md"
+  },
+  "governance": {
+    "codeOfConduct": "https://github.com/example/my-project/blob/main/CODE_OF_CONDUCT.md",
+    "contributing": "https://github.com/example/my-project/blob/main/CONTRIBUTING.md",
+    "license": "https://github.com/example/my-project/blob/main/LICENSE"
+  }
+}

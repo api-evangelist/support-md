@@ -1,0 +1,153 @@
+vocabulary:
+  name: SUPPORT.md Vocabulary
+  description: >-
+    Vocabulary for SUPPORT.md community health files used in GitHub repositories.
+    Covers support channels, issue classification, community governance, and
+    the lifecycle of support interactions in open source projects.
+  created: '2026-05-02'
+  modified: '2026-05-02'
+  tags:
+    - Community
+    - Documentation
+    - Open Source
+    - Support
+
+  terms:
+
+    - term: SUPPORT.md
+      definition: >-
+        A GitHub community health file placed in the repository root or .github/
+        directory that describes how users can get support for a project. GitHub
+        automatically surfaces a link to this file when users open new issues.
+      tags:
+        - Community
+        - File
+
+    - term: Community Health File
+      definition: >-
+        A standardized file recognized by GitHub that defines community norms
+        for a project. Includes SUPPORT.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md,
+        SECURITY.md, and FUNDING.yml.
+      tags:
+        - Community
+        - GitHub
+
+    - term: Issue Tracker
+      definition: >-
+        A system (often GitHub Issues) for recording, tracking, and resolving
+        bugs, feature requests, and questions for a software project.
+      tags:
+        - Bug Tracking
+        - Community
+
+    - term: Discussion Forum
+      definition: >-
+        A community space (GitHub Discussions, Stack Overflow, Discord, Slack,
+        or similar) for open-ended questions, announcements, and community
+        conversation separate from formal bug reports.
+      tags:
+        - Community
+        - Forums
+
+    - term: Mailing List
+      definition: >-
+        An email-based distribution list used for project announcements,
+        discussion, and support. Common in Apache and GNU projects.
+      tags:
+        - Community
+        - Email
+
+    - term: Security Disclosure
+      definition: >-
+        The responsible process for reporting a security vulnerability privately
+        to project maintainers before public disclosure, typically via a dedicated
+        email address or SECURITY.md file.
+      tags:
+        - Security
+        - Vulnerability
+
+    - term: Bug Report
+      definition: >-
+        A documented account of unexpected behavior in software, typically filed
+        using a structured template that captures steps to reproduce, expected
+        behavior, and actual behavior.
+      tags:
+        - Bug Tracking
+        - Quality
+
+    - term: Feature Request
+      definition: >-
+        A proposal for new functionality or enhancement to an existing project,
+        filed through the project's issue tracker or discussion forum.
+      tags:
+        - Community
+        - Product
+
+    - term: Maintainer
+      definition: >-
+        An individual or group responsible for reviewing contributions, triaging
+        issues, releasing new versions, and setting the direction of an open
+        source project.
+      tags:
+        - Community
+        - Governance
+
+    - term: Contributor
+      definition: >-
+        Anyone who contributes code, documentation, testing, design, or other
+        resources to an open source project.
+      tags:
+        - Community
+        - Open Source
+
+    - term: CONTRIBUTING.md
+      definition: >-
+        A companion community health file to SUPPORT.md that describes how
+        developers can contribute code or documentation to a project, including
+        coding standards, pull request workflows, and CLA requirements.
+      tags:
+        - Community
+        - Documentation
+
+    - term: Code of Conduct
+      definition: >-
+        A document specifying the standards of behavior expected of community
+        members and the consequences for violations. Typically defined in
+        CODE_OF_CONDUCT.md using the Contributor Covenant or similar frameworks.
+      tags:
+        - Community
+        - Governance
+
+    - term: Support Channel
+      definition: >-
+        Any medium through which users can seek help, including GitHub Issues,
+        GitHub Discussions, Slack, Discord, Stack Overflow, email, and documentation.
+      tags:
+        - Community
+        - Support
+
+    - term: Documentation
+      definition: >-
+        Written materials explaining how to install, configure, and use a
+        software project. Often the first support channel referenced in SUPPORT.md.
+      tags:
+        - Documentation
+        - Support
+
+    - term: Stack Overflow
+      definition: >-
+        A popular public Q&A platform where developers ask and answer technical
+        questions. Many projects direct "how do I" questions here using a
+        project-specific tag.
+      tags:
+        - Community
+        - Forums
+
+    - term: GitHub Discussions
+      definition: >-
+        A GitHub feature providing a threaded forum within a repository for
+        community Q&A, announcements, and general conversation, separate from
+        the Issues tab.
+      tags:
+        - Community
+        - GitHub
