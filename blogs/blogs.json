@@ -1,0 +1,13 @@
+{
+  "repo": "support-md",
+  "feeds": [
+    {
+      "source": "https://github.blog/2017-07-20-support-file-support/",
+      "feed_url": "https://github.blog/feed/",
+      "saved": 10,
+      "title": "The GitHub Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:37:17Z"
+}
