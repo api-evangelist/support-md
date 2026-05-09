@@ -3,11 +3,11 @@
   "feeds": [
     {
       "source": "https://github.blog/2017-07-20-support-file-support/",
-      "feed_url": "https://github.blog/feed/",
-      "saved": 10,
-      "title": "The GitHub Blog"
+      "feed_url": "https://github.blog/2017-07-20-support-file-support/feed/",
+      "title": "Comments on: SUPPORT file support",
+      "saved": 0
     }
   ],
   "post_count": 10,
-  "fetched": "2026-05-03T23:37:17Z"
+  "fetched": "2026-05-09T20:17:51Z"
 }
