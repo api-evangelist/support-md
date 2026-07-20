@@ -1,5 +1,6 @@
 aid: support-md
 name: SUPPORT.md
+kind: topic
 description: >-
   SUPPORT.md is a GitHub community health file that describes how users can get
   help with an open source project. When present in a repository root or .github/
