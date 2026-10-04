@@ -9,14 +9,17 @@ description: >-
 type: Index
 deliveryModel:
   model: unknown
-  open_source: false
+  license_evidence:
+    not_product:
+    - github/docs
+  open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - none
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -35,7 +38,7 @@ tags:
   - Community
   - Documentation
   - GitHub
-  - Open-Source
+  - Open Source
   - Repository
   - Support
 tags_raw:
@@ -45,6 +48,7 @@ tags_raw:
   - Open Source
   - Repository
   - Support
+  - Open-Source
 url: https://raw.githubusercontent.com/api-evangelist/support-md/refs/heads/main/apis.yml
 created: '2025-01-01'
 modified: '2026-05-02'
@@ -62,7 +66,7 @@ apis:
       - Community
       - GitHub
       - Health Files
-      - Open-Source
+      - Open Source
       - Support
     tags_raw:
       - Community
@@ -70,6 +74,7 @@ apis:
       - Health Files
       - Open Source
       - Support
+      - Open-Source
     properties:
       - type: Documentation
         url: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-support-resources-to-your-project
