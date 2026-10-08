@@ -81,6 +81,12 @@ apis:
       - type: GitHub Blog
         url: https://github.blog/2017-07-20-support-file-support/
 common:
+  - type: Plans
+    url: plans/support-md-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/support-md-rate-limits.yml
+  - type: FinOps
+    url: finops/support-md-finops.yml
   - type: Website
     url: https://docs.github.com/en/communities
   - type: Documentation
